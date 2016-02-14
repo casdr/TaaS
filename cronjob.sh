@@ -7,16 +7,17 @@ cd /opt/taas
 date -u > /opt/taas/time.txt
 
 # time
-date -u +"%M" > /opt/taas/minute.txt
-date -u +"%H" > /opt/taas/hour.txt
+date -u +"%M" > minute.txt
+date -u +"%H" > hour.txt
 
 # date
-date -u +"%Y" > /opt/taas/year.txt
-date -u +"%m" > /opt/taas/month.txt
-date -u +"%d" > /opt/taas/day.txt
+date -u +"%Y" > year.txt
+date -u +"%m" > month.txt
+date -u +"%d" > day.txt
 
 # misc
-date -u +"%W" > /opt/taas/week.txt
+date -u +"%s" > timestamp.txt
+date -u +"%W" > week.txt
 
 # git
 git add -A
