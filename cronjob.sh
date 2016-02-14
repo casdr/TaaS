@@ -1,5 +1,5 @@
 #!/bin/bash
-
+time=`date -u`
 # change directory
 cd /opt/taas
 
@@ -20,5 +20,5 @@ date -u +"%W" > /opt/taas/week.txt
 
 # git
 git add -A
-git commit -m "Update to `date -u`"
+git commit -m "Update to $date"
 git push -f
