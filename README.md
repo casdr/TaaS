@@ -3,7 +3,7 @@ UTC Time as a Service
 
 ## How can I use this?
 
-For example, getting the current day of the month, use:
+For example, getting the current year, use:
 
 ### PHP
     <?php
