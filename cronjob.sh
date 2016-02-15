@@ -18,6 +18,7 @@ date -u +"%d" > day.txt
 # misc
 date -u +"%s" > timestamp.txt
 date -u +"%W" > week.txt
+expr $(date -u +"%Y" | cut -c-2) + 1 > century.txt
 
 # git
 git add -A
